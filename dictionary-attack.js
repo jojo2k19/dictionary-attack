@@ -14,6 +14,17 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
-function checkPassword() {
+var password = document.getElementbyId("pw");
 
+function checkPassword() {
+  for (var x=0; x < wordsList.length; x++);
+    if (password == wordsList[x]){
+      print ("This is a strong password!") ;
+    }
+    else {
+      print ("This is a weak password. It's just a word from the dictionary!") ;
+    }
+      
+  
+    
 }
