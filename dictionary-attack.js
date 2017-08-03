@@ -19,10 +19,10 @@ var password = document.getElementbyId("pw");
 function checkPassword() {
   for (var x=0; x < wordsList.length; x++);
     if (password == wordsList[x]){
-      print ("This is a weak password. It's just a word from the dictionary!");
+      document.getElement.Id("results").innerHTML = "This is a weak password! It's just a word from the dictionary!";
     }
     else {
-      print ("This is a strong password!");
+      document.getElement.Id("results").innerHTML = "Great job! This is a strong password!";
     }
       
   
