@@ -15,7 +15,9 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-
+  //"pw" is input for password
+  for (x=0; x < wordsList.length; x++);
+    
 }
 
 
