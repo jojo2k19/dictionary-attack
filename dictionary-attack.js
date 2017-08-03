@@ -17,3 +17,5 @@ window.onload = init;
 function checkPassword() {
 
 }
+
+
