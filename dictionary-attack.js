@@ -14,15 +14,15 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
-var password = document.getElementbyId("pw");
+var password = document.getElementbyId("pw").value;
 
 function checkPassword() {
   for (var x=0; x < wordsList.length; x++);
     if (password == wordsList[x]){
-      document.getElement.Id("results").innerHTML = "This is a weak password! It's just a word from the dictionary!";
+      document.getElement.Id("results").value = "This is a weak password! It's just a word from the dictionary!";
     }
     else {
-      document.getElement.Id("results").innerHTML = "Great job! This is a strong password!";
+      document.getElement.Id("results").value = "Great job! This is a strong password!";
     }
       
   
