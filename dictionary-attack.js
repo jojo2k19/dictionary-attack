@@ -23,6 +23,7 @@ function checkPassword() {
   }
     else {
       document.getElementById("results").innerHTML = "Great job! This is a strong password!";
+      break;
     }
 
 }
