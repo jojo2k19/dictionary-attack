@@ -24,6 +24,7 @@ function checkPassword() {
     else if (password == wordsList[x] + "2017"){
       document.getElementById("results").innerHTML = "This is a weak password!";
       break;
+  }
     else {
       document.getElementById("results").innerHTML = "Great job! This is a strong password!";
       break;
