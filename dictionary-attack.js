@@ -14,10 +14,17 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
+var password = document.getElementById("pw").value;
+
 function checkPassword() {
   for (var x=0; x < wordsList.length; x++);
-    if 
+    if (password == wordsList[x]){
+      document.getElementById("results").innerHTML = "This is a weak password! It's just a word from the dictionary!";
+   break;
+  }
+    else {
+      document.getElementById("results").innerHTML = "Great job! This is a strong password!";
+    } 
     
 }
-
-
+}
